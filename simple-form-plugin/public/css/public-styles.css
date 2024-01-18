@@ -1,0 +1,106 @@
+/* Style for the form container */
+#car-add-form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Style for form fields and labels */
+.custom-form-group {
+    margin-bottom: 15px;
+}
+
+.custom-form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.custom-form-group input[type="text"],
+.custom-form-group select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Style for the wp_editor textarea */
+.custom-form-group textarea {
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Style for the checkbox */
+.custom-form-group input[type="checkbox"] {
+    margin-top: 5px;
+}
+
+/* Style for the submit button */
+.custom-form-group button {
+    background-color: #0073e6;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+/* Hover effect for the submit button */
+.custom-form-group button:hover {
+    background-color: #005bad;
+}
+.custom-car-list-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.custom-car-list-table th,
+.custom-car-list-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+.custom-car-list-table td.custom-img {
+    width: 100px;
+}
+
+.custom-action-buttons {
+    text-align: center;
+}
+
+.custom-edit-button,
+.custom-view-button,
+.custom-delete-button {
+    display: inline-block;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    border: 1px solid #0073e6;
+    background-color: #0073e6;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 8px;
+}
+
+.custom-edit-button:hover,
+.custom-view-button:hover,
+.custom-delete-button:hover {
+    background-color: #0056b3;
+}
+
+.custom-delete-button {
+    background-color: #e60000;
+    border: 1px solid #e60000;
+    text-decoration: none;
+}
+
+.custom-delete-button:hover {
+    background-color: #b30000;
+}
