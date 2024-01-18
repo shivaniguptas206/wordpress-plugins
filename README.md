@@ -12,7 +12,7 @@
   <a href="https://profiles.wordpress.org/shivaniguptas206/"><img src="https://img.shields.io/badge/WordPress-Profile-informational"></a>
   <a href="https://shivanimobilecenter.github.io/"><img src="https://img.shields.io/badge/Portfolio-Website-yellow"></a>
   <a href="https://www.learnvern.com/r/c74aa1"><img src="https://img.shields.io/badge/LearnVern-Course-red"></a>
-<a href="https://stackoverflow.com/users/23262040/shivani-gupta">Visit my Stack Overflow profile</a>
+  <a href="https://stackoverflow.com/users/23262040/shivani-gupta"><img src="https://img.shields.io/badge/Stack%20Overflow-Profile-blue"></a>
 </div>
 
 ## Description
