@@ -1,0 +1,203 @@
+/**
+ * All of the CSS for your public-specific functionality should be
+ * included in this file.
+ */
+/* Add margin at the top of the social share buttons */
+#swfw-social-share-buttons {
+  margin-top: 10px;
+  text-decoration: none;
+}
+
+/* Styling for each social share button */
+#swfw-social-share-buttons .swfw-social-share-button {
+  display: inline-block;
+  margin-right: 10px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  text-decoration: none;
+  color: #333;
+  text-decoration: none;
+}
+
+#swfw-social-share-buttons #swfw-copy-message {
+  display: none;
+}
+
+#swfw-social-share-buttons .swfw-social-share-button a {
+  text-decoration: none;
+}
+
+/* Styles for social share buttons on hover */
+#swfw-social-share-buttons .swfw-social-share-button:hover {
+  background-color: #f5f5f5;
+  color: #000;
+}
+
+/* Add margin to the right of the icon inside the social share buttons */
+#swfw-social-share-buttons .swfw-social-share-button i {
+  margin-right: 5px;
+}
+
+/* Styles for WhatsApp share button on hover */
+#swfw-social-share-buttons .swfw-social-share-button.swfw-whatsapp-share:hover {
+  background-color: #25D366;
+  color: #fff;
+}
+
+/* Styles for Facebook share button on hover */
+#swfw-social-share-buttons .swfw-social-share-button.swfw-facebook-share:hover {
+  background-color: #3b5998;
+  color: #fff;
+}
+
+/* Styles for Gmail share button on hover */
+#swfw-social-share-buttons .swfw-social-share-button.swfw-gmail-share:hover {
+  background-color: #DB4437;
+  color: #fff;
+}
+
+/* Styles for Instagram share button on hover */
+#swfw-social-share-buttons .swfw-social-share-button.swfw-copy-link-share:hover {
+  background-color: #7c6fc5;
+  color: #fff;
+}
+
+/* Styles for Pinterest share button on hover */
+#swfw-social-share-buttons .swfw-social-share-button.swfw-pinterest-share:hover {
+  background-color: #BD081C;
+  color: #fff;
+}
+
+/* Styles for Twitter share button on hover */
+#swfw-social-share-buttons .swfw-social-share-button.swfw-twitter-share:hover {
+  background-color: #1DA1F2;
+  color: #fff;
+}
+
+/* Set the width and height of the image in the wishlist display */
+.swfw-img {
+  width: 100px;
+  height: 100px;
+}
+
+.swfw-success-message {
+  display: none;
+}
+
+.swfw-login-message {
+  display: none;
+}
+
+/* Default table styles */
+#swfw-wishlist-table {
+  width: 100%;
+  border-collapse: collapse;
+  border: none;
+  /* Remove the border */
+}
+
+#swfw-wishlist-table th,
+#swfw-wishlist-table td {
+  padding: 8px;
+  border: none;
+  /* Remove the border */
+}
+
+#swfw-wishlist-table th {
+  background-color: #f2f2f2;
+  text-align: left;
+}
+
+#swfw-wishlist-table td.swfw-img img {
+  max-width: 100px;
+  height: auto;
+}
+
+#swfw-wishlist-table td.swfw-img a {
+  display: block;
+}
+
+#swfw-wishlist-table td.swfw-img a:hover {
+  opacity: 0.8;
+}
+
+#swfw-wishlist-table td.swfw-img a img {
+  width: 100%;
+  height: auto;
+}
+
+#swfw-wishlist-table td,
+#swfw-wishlist-table th {
+  font-size: 14px;
+  /* Adjust the text size */
+}
+
+.swfw-wishlist-empty-message {
+  margin-top: 20px;
+  padding: 15px;
+  background-color: #84bce7;
+  border: 1px solid #ddd;
+  border-left: 4px solid #428bca;
+  border-right: 4px solid #428bca;
+  color: #fff;
+  font-size: 16px;
+}
+
+/* Hide the "View Wishlist" button initially */
+#swfw-view-wishlist-button {
+  display: none;
+}
+
+.swfw-unlogged-message {
+  display: none;
+}
+
+.swfw-get-price-html {
+  display: none;
+}
+
+/* Style for the action buttons container */
+.swfw-action-buttons {
+  margin-top: 20px;
+}
+
+/* Style for the action select dropdown */
+.swfw-action-select {
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  color: #333;
+  background-color: #fff;
+}
+
+/* Style for the "Apply" button */
+#swfw-apply-button {
+  margin-left: 10px;
+  padding: 8px 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+/* Media query for screens with a maximum width of 768px */
+@media (max-width: 768px) {
+
+  #swfw-wishlist-table th,
+  #swfw-wishlist-table td {
+    padding: 6px;
+  }
+
+  #swfw-wishlist-table td,
+  #swfw-wishlist-table th {
+    font-size: 12px;
+  }
+}
+.swfw-button-cart {
+  background-color: #c1c6c9; 
+  color: #000; 
+  border: none;
+  font-size: 14px; 
+  cursor: pointer;
+  text-decoration: none;
+}
