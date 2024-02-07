@@ -1,5 +1,8 @@
+
 <div align="center">
-  <p>Connect with me:</p>
+  <h1>🚀 Welcome to my awesome repository!</h1>
+
+  <h3><strong>Connect With Me</strong></h3>
   <a href="https://www.linkedin.com/in/shivani-gupta-41733a24a/"><img src="https://img.shields.io/badge/LinkedIn-Profile-blue"></a>
   <a href="https://github.com/shivaniguptas206/"><img src="https://img.shields.io/badge/GitHub-Profile-brightgreen"></a>
   <a href="https://wordpress.com/home/shivani983.wordpress.com"><img src="https://img.shields.io/badge/WordPress-Blog-orange"></a>
@@ -8,7 +11,7 @@
   <a href="https://www.learnvern.com/r/c74aa1"><img src="https://img.shields.io/badge/LearnVern-Course-red"></a>
   <a href="https://stackoverflow.com/users/23262040/shivani-gupta"><img src="https://img.shields.io/badge/Stack%20Overflow-Profile-blue"></a>
   
-<h2> Simple Form Plugin</h2>
+<h2> Simple Form Plugin 🚗</h2>
 </div>
 
 ## Description
