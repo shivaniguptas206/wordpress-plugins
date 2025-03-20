@@ -14,6 +14,8 @@
 <h2> Simple Form Plugin 🚗</h2>
 </div>
 
+![Simple Form Plugin](https://img.shields.io/badge/Security-High-green.svg) ![Version](https://img.shields.io/badge/Version-1.0-blue.svg) ![License](https://img.shields.io/badge/License-GPL--2.0-orange.svg)
+
 ## Description
 
 The Simple Form Plugin is a WordPress plugin designed to simplify the process of adding and displaying car details through a customizable form. It empowers users to efficiently manage car information on their WordPress sites.
@@ -52,6 +54,8 @@ The Simple Form Plugin is a WordPress plugin designed to simplify the process of
 <h2>Smart Wishlist Plugin For WooCommerce 🛒</h2>
 </div>
 
+![Smart Wishlist Plugin For WooCommerce](https://img.shields.io/badge/Security-High-green.svg) ![Version](https://img.shields.io/badge/Version-1.0-blue.svg) ![License](https://img.shields.io/badge/License-GPL--2.0-orange.svg)
+
 ## Description
 
 The Smart Wishlist Plugin For WooCommerce enhances the wishlist functionality on WooCommerce stores, providing advanced features and customization options for an improved user experience.
@@ -72,5 +76,40 @@ The Smart Wishlist Plugin For WooCommerce enhances the wishlist functionality on
 | CSS Styles Options                     | 🎨 Customize the appearance of wishlist buttons.                                                          |
 
 ---
+<div align="center">
+<h2>🔒 WP Security - Restrict Theme & Plugin Editing</h2>
+</div>
+
+![WP Security](https://img.shields.io/badge/Security-High-green.svg) ![Version](https://img.shields.io/badge/Version-1.0-blue.svg) ![License](https://img.shields.io/badge/License-GPL--2.0-orange.svg)
+
+WP Security is a lightweight WordPress plugin that **prevents unauthorized theme and plugin editing** by requiring a security token. Admins can enter the security token to gain temporary access for 30 minutes.
+
+## 🚀 Features
+✅ Restrict theme & plugin editing  
+✅ Require security token for access  
+✅ Temporary access for 30 minutes  
+✅ AJAX-based token verification  
+✅ Admin settings menu for token entry  
+✅ Custom cron job to clear expired tokens  
+
+## 📥 Installation
+
+1. Download the plugin ZIP file or clone the repository.
+2. Upload it to your WordPress site via **Plugins → Add New → Upload Plugin**.
+3. Activate the plugin in **Plugins → Installed Plugins**.
+4. Navigate to **Security Token** in the admin menu and enter the token.
+
+## 🛠️ How It Works
+1. Without a valid token, **theme/plugin editing is disabled** (`DISALLOW_FILE_EDIT`).
+2. Admin must enter the **security token** in the plugin settings.
+3. If the token is correct, **access is granted for 30 minutes**.
+4. Token validity is stored using WordPress **transients**.
+5. A **cron job clears expired tokens** every 30 minutes.
+
+## 🔐 Security Measures
+- Prevents unauthorized modifications to themes and plugins.
+- Uses **nonce validation** to prevent CSRF attacks.
+- Restricts direct access to plugin files.
+
 
 *Created with ❤️ by [shivaniguptas206](https://github.com/shivaniguptas206)*
